@@ -1,0 +1,15 @@
+<% if @is_master -%>
+[master]
+vardir = <%= @vardir %>
+logdir = <%= @logdir %>
+rundir = <%= @rundir %>
+pidfile = <%= @pidfile %>
+codedir = <%= @codedir %>
+dns_alt_names = <%= @alt_names %>
+<% end -%>
+
+[main]
+certname = <%= @certname %>
+server = <%= @master %>
+environment = <%= @environment %>
+runinterval = <%= @runinterval %>

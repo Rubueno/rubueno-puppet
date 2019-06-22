@@ -1,0 +1,14 @@
+{
+  "name": "rubueno-sonarr",
+  "version": "1.0.0",
+  "author": "rubueno",
+  "summary": "A Puppet module for managing puppet.conf",
+  "license": "DBAD",
+  "source": "https://github.com/Rubueno/rubueno-puppet",
+  "project_page": "https://github.com/Rubueno/rubueno-puppet",
+  "issues_url": "https://github.com/Rubueno/rubueno-puppet/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": "hiera"
+}
